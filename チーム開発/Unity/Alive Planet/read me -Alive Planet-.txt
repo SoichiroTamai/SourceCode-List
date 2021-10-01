@@ -1,0 +1,6 @@
+【 Alive Planet -担当箇所- 】
+
+・Tamai フォルダ
+
+・Konishi/ BulletManager.cs
+	 / EnemyManager.cs
