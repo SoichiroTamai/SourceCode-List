@@ -1,0 +1,338 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.45",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Cannon"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "03___14054_Pirate_Ship_Cannon_on_Cart_wheel.003",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8174257874488831
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "01_14054_Pirate_Ship_Cannon_on_Cart_cart.003",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8174257874488831
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "02___14054_Pirate_Ship_Cannon_on_Cart_barrel.003",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.8174257874488831
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "14054_Pirate_Ship_Cannon_on_Cart_v1_l3.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "14054_Pirate_Ship_Cannon_on_Cart_wheel_diff",
+            "uri" : "14054_Pirate_Ship_Cannon_on_Cart_wheel_diff.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "14054_Pirate_Ship_Cannon_on_Cart_cart_diff",
+            "uri" : "14054_Pirate_Ship_Cannon_on_Cart_cart_diff.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "14054_Pirate_Ship_Cannon_on_Cart_barrel_diff",
+            "uri" : "14054_Pirate_Ship_Cannon_on_Cart_barrel_diff.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1647,
+            "max" : [
+                37.17994689941406,
+                23.072160720825195,
+                34.01753234863281
+            ],
+            "min" : [
+                -49.91569900512695,
+                0.05654151365160942,
+                -34.031700134277344
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1647,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1647,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 3594,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1442,
+            "max" : [
+                40.76114273071289,
+                52.89590072631836,
+                37.95981979370117
+            ],
+            "min" : [
+                -66.20368957519531,
+                4.756626605987549,
+                -37.92450714111328
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1442,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1442,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 4251,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 3212,
+            "max" : [
+                111.53221130371094,
+                69.8821029663086,
+                27.58913803100586
+            ],
+            "min" : [
+                -57.001502990722656,
+                27.312599182128906,
+                -27.46379852294922
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 3212,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 3212,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 7716,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 19764,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 19764,
+            "byteOffset" : 19764
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13176,
+            "byteOffset" : 39528
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7188,
+            "byteOffset" : 52704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17304,
+            "byteOffset" : 59892
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17304,
+            "byteOffset" : 77196
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11536,
+            "byteOffset" : 94500
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8502,
+            "byteOffset" : 106036
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 38544,
+            "byteOffset" : 114540
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 38544,
+            "byteOffset" : 153084
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25696,
+            "byteOffset" : 191628
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15432,
+            "byteOffset" : 217324
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 232756,
+            "uri" : "Cannon.bin"
+        }
+    ]
+}

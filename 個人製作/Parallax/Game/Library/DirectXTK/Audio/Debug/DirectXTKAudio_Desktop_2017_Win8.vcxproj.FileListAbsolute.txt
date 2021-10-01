@@ -1,0 +1,6 @@
+C:\Users\kd125\OneDrive\デスクトップ\授業使用フォルダ\初期配布\Program\Library\DirectXTK\Lib\Debug\DirectXTKAudioWin8.pdb
+C:\Users\kd125\OneDrive\デスクトップ\授業使用フォルダ\初期配布\Program\Library\DirectXTK\Audio\Debug\DirectXTKAudioWin8.pdb
+C:\Users\kd125\OneDrive\デスクトップ\授業使用フォルダ\3D\初期配布\Program\Library\DirectXTK\Lib\Debug\DirectXTKAudioWin8.pdb
+C:\Users\kd125\OneDrive\デスクトップ\授業使用フォルダ\3D\初期配布\Program\Library\DirectXTK\Audio\Debug\DirectXTKAudioWin8.pdb
+D:\授業フォルダ\DirectX11Lisson\Program\Library\DirectXTK\Lib\Debug\DirectXTKAudioWin8.pdb
+D:\授業フォルダ\DirectX11Lisson\Program\Library\DirectXTK\Audio\Debug\DirectXTKAudioWin8.pdb
