@@ -1,0 +1,392 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="shift_JIS">
+    <meta name="author" content="玉井宗一郎" >
+    <link href="instrucions.css" media="all" rel="stylesheet">
+    <title>おえかきシューター-説明書-</title>
+</head>
+
+<body>
+    <header id="HeaderImgSize"> <img src="source/見出し.png" alt="ロゴ&タイトル名"/> </header>
+    <section class="MainBox">
+
+        <nav>
+            <!-- 目次タイトル -->
+            <h1 style="font-size: 30px">ゲーム画面一覧とメニュー操作方法</h1>
+
+            <!------------リンク------------>
+            <h2 style="font-size: 20px" class="Centered">【 リンク一覧 】</h2>
+            <!--Twitter共有-->
+            <!--href="http://twitter.com/share?text=【ツイート文】&url=【共有するURL】&hashtags=【ハッシュタグ】"-->
+            <a href="http://twitter.com/share?text=おえかきシューター最高だった！！！&url=【共有するURL】&hashtags=神戸電子" onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" rel="nofollow"><img src="source\twitter.jpg" alt="ツイート" width="50" height="50" /></a>
+            <!--神戸電子Twitter-->
+            <a href="https://twitter.com/kobedenshi"><img src="source\KDTwitterLInk.png" alt="神戸電子Twitterのリンク"></a>
+            <!--Facebook-->
+            <a href="https://www.facebook.com/KobedenshiGame"><img src="source\KDFacebookLInk.png" alt="神戸電子ゲームFacebookのリンク"></a>
+
+            <h2 style="font-size: 20px">各ゲーム画面の見方、操作方法を説明します。</h2>
+
+            <!--目次-->
+            <nav class="TableOfContentsBox">
+
+                <div style="margin-bottom: 5%;" onclick="obj=document.getElementById('目次').style; obj.display=(obj.display=='none')?'block':'none';" class="Centered">
+                    【 目次 】
+                    <a style="cursor:pointer;" class="icon-menu-lines:before;">
+                        <div id="humberger">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div id="目次" style="display:none; clear:both;">
+                    <ul>
+                        <li style="list-style:none;">
+                            <ol>
+                                <!--1.-->
+                                <li>
+                                    <a href="#MP_chapter1">ゲーム概要</a>
+                                    <ol>
+                                        <!--1.-->
+                                        <li>
+                                            <a href="#MP_chapter1-1">オープニング画面</a>
+                                        </li>
+                                        <!--2.-->
+                                        <li>
+                                            <a href="#MP_chapter1-2">モードセレクト選択画面</a>
+                                        </li>
+                                        <!--3.-->
+                                        <li>
+                                            <a href="#MP_chapter1-3">イラスト選択画面</a>
+                                        </li>
+                                        <!--4.-->
+                                        <li>
+                                            <a href="#MP_chapter1-4">イラスト編集画面</a>
+                                        </li>
+                                        <!--5.-->
+                                        <li>
+                                            <a href="#MP_chapter1-5">ステージ選択画面</a>
+                                        </li>
+                                        <!--6.-->
+                                        <li>
+                                            <a href="#MP_chapter1-6">シューティングゲーム画面</a>
+                                        </li>
+                                        <!--7.-->
+                                        <li>
+                                            <a href="#MP_chapter1-7">作るもしくは遊ぶモード選択画面</a>
+                                        </li>
+                                        <!--8.-->
+                                        <li>
+                                            <a href="#MP_chapter1-8">自作ステージ選択画面</a>
+                                        </li>
+                                        <!--9.-->
+                                        <li>
+                                            <a href="#MP_chapter1-9">自作ステージ編集画面</a>
+                                            <ol>
+                                                <!--1.-->
+                                                <li><a href="#MP_chapter1-9-1">範囲選択中操作</a></li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+
+                        <li style="list-style:none;  margin-top:15%; ">
+                            【 その他 】
+                            <ul>
+                                <li> <a href="#MP_Youtube">プレイ動画(DigitalWorks)</a> </li>
+                                <li> <a href="#MP_Facsbook"> Facebook-受賞記事- </a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+
+        <main>
+            <!-- ゲーム概要(chapter1) -->
+            <h1 class="ItemName" id="MP_chapter1">　ゲーム概要</h1>
+            <img src="source\0.gaiyou.png" alt="OP">
+
+            <table border="1">
+                <tr>
+                    <th class="Main_th_Number_size">このゲームは以下の操作選択以外にも背景をクリックするだけで<br
+                                                                                     >実行されるアニメーションが多数ありますので是非お楽しみください</th>
+                </tr>
+            </table>
+
+            <!--  オープニング画面(chapter1-1) -->
+            <h1 class="ItemName-Child" id="MP_chapter1-1">　オープニング画面</h1>
+            <img src="source\1.OP.png" alt="OP">
+
+            <table border="1">
+                <tr>
+                    <th class="Main_th_Number_size">１</th>
+                    <th class="Main_th_Name_size">カーソル</th>
+                    <td class="Main_td_Details_size">マウスと連動して移動します</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">２</th>
+                    <th class="Main_th_Name_size">スタートボタン</th>
+                    <td>ゲームを開始します</td>
+                </tr>
+            </table>
+
+
+            <!-- モードセレクト選択画面(chapter1-2) -->
+            <h1 class="ItemName-Child" id="MP_chapter1-2">　モードセレクト画面</h1>
+            <img src="source\2.ModeSerect.png" alt="ModeSerect">
+
+            <table border="1">
+                <tr>
+                    <th class="Main_th_Number_size">１</th>
+                    <th class="Main_th_Name_size">ステージづくり</th>
+                    <td class="Main_td_Details_size">作るもしくは遊ぶモード画面へ移行します</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">２</th>
+                    <th class="Main_th_Name_size">おえかき</th>
+                    <td>編集するためのイラスト選択画面へ移行します</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">３</th>
+                    <th class="Main_th_Name_size">おたからさがし</th>
+                    <td class="Main_td_Details_size">ステージ選択画面へ移行します</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">４</th>
+                    <th class="Main_th_Name_size">戻る</th>
+                    <td class="Main_td_Details_size">前の画面に戻ります</td>
+                </tr>
+            </table>
+
+            <!-- イラスト選択画面(chapter1-3) -->
+            <h1 class="ItemName-Child" id="MP_chapter1-3">　イラスト選択画面</h1>
+            <img src="source\3.ChoicePicture.png" alt="ChoicePicture">
+
+            <table border="1">
+                <tr>
+                    <th class="Main_th_Number_size">１</th>
+                    <th class="Main_th_Name_size">選択するイラスト</th>
+                    <td class="Main_td_Details_size">編集もしくは操作用のイラストを選択します</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">２</th>
+                    <th class="Main_th_Name_size">戻る</th>
+                    <td>前の画面へ戻ります</td>
+                </tr>
+            </table>
+
+            <!-- イラスト編集画面(chapter1-4) -->
+            <h1 class="ItemName-Child" id="MP_chapter1-4">　イラスト編集画面</h1>
+            <img src="source\4.EditPicture.png" alt="EditPicture">
+
+            <table border="1">
+                <tr>
+                    <th class="Main_th_Number_size">１</th>
+                    <th class="Main_th_Name_size">パレット</th>
+                    <td class="Main_td_Details_size">自機の見た目を書き込めます</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">２</th>
+                    <th class="Main_th_Name_size">お絵かき用ツール</th>
+                    <td>上段は、太さ変更ツール、ペン・楕円・矩形・直線制作ツール、<br>消しゴムツール、下段は色を選択できます</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">３</th>
+                    <th class="Main_th_Name_size">武器選択</th>
+                    <td class="Main_td_Details_size">3つの種類の武器を選ぶことができます</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">４</th>
+                    <th class="Main_th_Name_size">プレビュー画面</th>
+                    <td class="Main_td_Details_size">自機の体力や見た目、武器の攻撃力や見た目が確認できます</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">５</th>
+                    <th class="Main_th_Name_size">もどる</th>
+                    <td class="Main_td_Details_size">前の画面へ戻ります</td>
+                </tr>
+            </table>
+
+            <!-- ステージ選択画面(chapter1-5) -->
+            <h1 class="ItemName-Child" id="MP_chapter1-5">　ステージ選択画面</h1>
+            <img src="source\5.ChoiceMap.png" alt="ChoiceMap">
+
+            <table border="1">
+                <tr>
+                    <th class="Main_th_Number_size">１</th>
+                    <th class="Main_th_Name_size">決定</th>
+                    <td class="Main_td_Details_size">選んだステージに挑戦します</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">２</th>
+                    <th class="Main_th_Name_size">選択矢印</th>
+                    <td>ステージを選択することができます</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">３</th>
+                    <th class="Main_th_Name_size">戻る</th>
+                    <td class="Main_td_Details_size">前の画面へ戻ります</td>
+                </tr>
+            </table>
+
+            <!-- シューティングゲーム画面(chapter1-6) -->
+            <h1 class="ItemName-Child" id="MP_chapter1-6">　シューティングゲーム画面</h1>
+            <img src="source\6.PlayShooting.png" alt="PlayShooting">
+
+            <table border="1">
+                <tr>
+                    <th class="Main_th_Number_size">１</th>
+                    <th class="Main_th_Name_size">自機</th>
+                    <td class="Main_td_Details_size">マウスの動きについてくる自機です</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">２</th>
+                    <th class="Main_th_Name_size">体力ゲージ</th>
+                    <td>なくなるとゲームオーバーになります</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">３</th>
+                    <th class="Main_th_Name_size">サブウェポンゲージ</th>
+                    <td class="Main_td_Details_size">右クリックによるサブウェポンで消費します<br>時間経過により回復します</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">４</th>
+                    <th class="Main_th_Name_size">必殺ゲージ</th>
+                    <td class="Main_td_Details_size">左右クリック同時押しによる必殺技で消費します<br>時間経過により回復はありません</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">５</th>
+                    <th class="Main_th_Name_size">操作説明</th>
+                    <td class="Main_td_Details_size">自機の装備している武器と使用方法を確認できます</td>
+                </tr>
+            </table>
+
+            <!-- 作るもしくは遊ぶモード選択画面(chapter1-7) -->
+            <h1 class="ItemName-Child" id="MP_chapter1-7">　作るもしくは遊ぶモード選択画面</h1>
+            <img src="source\7.EditORPlay.png" alt="EditORPlay">
+
+            <table border="1">
+                <tr>
+                    <th class="Main_th_Number_size">１</th>
+                    <th class="Main_th_Name_size">作る</th>
+                    <td class="Main_td_Details_size">ステージ編集モードへ移行します</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">２</th>
+                    <th class="Main_th_Name_size">遊ぶ</th>
+                    <td>ステージ遊ぶモードへ移行します</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">３</th>
+                    <th class="Main_th_Name_size">戻る</th>
+                    <td class="Main_td_Details_size">前の画面へ戻ります</td>
+                </tr>
+            </table>
+
+            <!--自作ステージ選択画面(chapter1-8) -->
+            <h1 class="ItemName-Child" id="MP_chapter1-8">　自作ステージ選択画面</h1>
+            <img src="source\8.ChoiceStage.png" alt="ChoiceStage">
+
+            <table border="1">
+                <tr>
+                    <th class="Main_th_Number_size">１</th>
+                    <th class="Main_th_Name_size">ステージ</th>
+                    <td class="Main_td_Details_size">セーブデータを選択できます</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">２</th>
+                    <th class="Main_th_Name_size">戻る</th>
+                    <td>前の画面へ戻ります</td>
+                </tr>
+            </table>
+
+            <!-- 自作ステージ編集画面(chapter1-9) -->
+            <h1 class="ItemName-Child" id="MP_chapter1-9">　自作ステージ編集画面</h1>
+            <img src="source\9.EditStage1.png" alt="EditStage">
+
+            <table border="1">
+                <tr>
+                    <th class="Main_th_Number_size">１</th>
+                    <th class="Main_th_Name_size">配置エリア</th>
+                    <td class="Main_td_Details_size">クリックしながらマウスを移動させることで選択範囲を指定できます</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">２</th>
+                    <th class="Main_th_Name_size">タイトル＆セーブ</th>
+                    <td>タイトルの確認とセーブができます</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">３</th>
+                    <th class="Main_th_Name_size">選択タブ</th>
+                    <td class="Main_td_Details_size">編集する物を買えることができます</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">４</th>
+                    <th class="Main_th_Name_size">雑魚敵一覧</th>
+                    <td class="Main_td_Details_size">クリックすることで配置する敵が変わります</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">５</th>
+                    <th class="Main_th_Name_size">雑魚敵説明</th>
+                    <td class="Main_td_Details_size">選択中の雑魚敵の説明が表示されています</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">６</th>
+                    <th class="Main_th_Name_size">スクロールバー</th>
+                    <td class="Main_td_Details_size">矢印キーをクリックしたりバーを<br>ドラッグすることで表示エリアを変更できます</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">７</th>
+                    <th class="Main_th_Name_size">戻る</th>
+                    <td class="Main_td_Details_size">前の画面へ戻ります</td>
+                </tr>
+            </table>
+
+            <!-- 範囲選択中操作 -->
+            <h1 class="ItemName-Grandchild" id="MP_chapter1-9-1">　範囲選択中操作</h1>
+            <img src="source\10.EditStage2.png" alt="EditStage2">
+
+            <table border="1">
+                <tr>
+                    <th class="Main_th_Number_size">８</th>
+                    <th class="Main_th_Name_size">選択範囲中</th>
+                    <td class="Main_td_Details_size">選択範囲中のエリアが黄色く表示されます</td>
+                </tr>
+                <tr>
+                    <th class="Main_th_Number_size">９</th>
+                    <th class="Main_th_Name_size">配置＆消去</th>
+                    <td class="Main_td_Details_size">選択中のエリアに対して雑魚敵の配置<br>または消去を選択することができます。</td>
+                </tr>
+            </table>
+
+        </main>
+
+        <!-- Youtube -->
+        <section class="ItemName" id="MP_Youtube">　プレイ動画</section>
+        <div class="Youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sZlDruW1RtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <!-- Facebook -->
+        <section class="ItemName" id="MP_Facsbook">　Facebook-受賞記事-</section>
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKobedenshiGame%2Fposts%2F2614997422114859&width=500" width="500" height="493" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+    </section>
+
+    <footer  style="background:#cccccc;" class="Centered">
+        <p style="border-top: groove;"><img src="source\rogo.png" id="RogoSize"> 2020 TM_MOKA  おえかきシューター</p>
+        
+        <address>
+            お問い合わせがございましたらこちらのメールにて(主に法人向け) → ： <a href="mailto:KD.TM.MOKA@gmail.com"> サイト制作者</a>
+        </address>
+    </footer>
+
+</body>
+</html>
