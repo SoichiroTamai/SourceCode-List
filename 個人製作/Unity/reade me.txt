@@ -1,0 +1,13 @@
+【 内容 】　
+
+・TPSカメラの制御
+
+・マップ切り替え
+　… PlayerController.cs の
+　　 eatialMovementPattern を変えることで切り替え方法を変更
+
+Teleportation　　→ 座標移動によるマップ変更
+
+Scenen Movement　→ シーン切り替えによる変更
+
+Object Switching → 周囲のオブジェクトを変更
