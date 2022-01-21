@@ -3,3 +3,5 @@
 ・TAMAI フォルダ
 
 ・KONISHI/ MöbiusSystem_RecordingEffect.cs
+
+・MV動画作成 （ゲーム大賞用）
