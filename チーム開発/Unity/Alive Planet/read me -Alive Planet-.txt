@@ -4,3 +4,5 @@
 
 ・Konishi/ BulletManager.cs
 	 / EnemyManager.cs
+	 
+・MV作成 (ISCA 応募用)
