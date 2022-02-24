@@ -1,5 +1,10 @@
 【 Alive Planet -担当箇所- 】
 
-・TAMAI フォルダ
+　・TAMAI フォルダ
 
-・KONISHI/ MöbiusSystem_RecordingEffect.cs
+　・KONISHI/ MöbiusSystem_RecordingEffect.cs
+
+
+【 注釈 】
+
+　・圧縮の為一部 ファイル名の Möbius の文字を Mobius に変更
